@@ -1,0 +1,16 @@
+name: DeathSwap
+version: 1.0.0
+author: Hugovalcraft
+main: fr.hugovalcraft.deathswap.Main
+commands:
+  scenario:
+    description: permet de connaitre le ou les scenario(s) actif(s)
+  config:
+    description: Config la game
+    permission: modo.use
+  player:
+    description: Definir le nombre de joueur de la partie
+    permission: modo.use
+  start:
+    description: permet de lancer une partie
+    permission: modo.use
